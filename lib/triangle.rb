@@ -17,10 +17,8 @@ class Triangle
     else
       :scalene
     end
-
   # raise TriangleError if @side_arr.each {|s| s <= 0}
   # raise TriangleError if @side1+@side2<=@side3 || @side2+@side3<=@side1 || @side1+@side3<=@side2
-
   end
 
   class TriangleError < StandardError
