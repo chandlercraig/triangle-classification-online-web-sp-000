@@ -5,7 +5,7 @@ class Triangle
 
   def initialize (side1, side2, side3)
     @side_arr = [side1, side2, side3]
-    @sides.sort!
+    @side_arr.sort!
   end
 
 
@@ -20,7 +20,7 @@ class Triangle
       :scalene
     end
  end
- 
+
   class TriangleError < StandardError
   end
 
